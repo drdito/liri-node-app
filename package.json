@@ -1,0 +1,29 @@
+{
+  "name": "liri-node-app",
+  "version": "1.0.0",
+  "description": "Liri node app dependencies",
+  "main": "liri.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drdito/liri-node-app.git"
+  },
+  "keywords": [
+    "Liri",
+    "Spotify",
+    "Twitter"
+  ],
+  "author": "Daniel Dito",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drdito/liri-node-app/issues"
+  },
+  "homepage": "https://github.com/drdito/liri-node-app#readme",
+  "dependencies": {
+    "node-spotify-api": "^1.0.7",
+    "request": "^2.82.0",
+    "twitter": "^1.7.1"
+  }
+}
