@@ -7,7 +7,7 @@ function takeArguments() {
     if (x === 3) {
       queryTerm += process.argv[x];
     }
-    else{
+    else {
       queryTerm += " " + process.argv[x];
     }
   }
@@ -73,7 +73,6 @@ else if (command === "movie-this") {
       return console.log(error);
     }
     if (!error && response.statusCode === 200) {
-      //console.log(JSON.parse(body));
       console.log("\nTitle: " + JSON.parse(body).Title);
       console.log("\nYear of Release: " + JSON.parse(body).Year);
       console.log("\nIMDB Rating: " + JSON.parse(body).imdbRating);
@@ -113,7 +112,6 @@ else if (command === "do-what-it-says"){
     }); 
   });
 }
-
 else {
   console.log("Invalid Command. Valid commands are my-tweets, spotify-this-song, movie-this, and do-what-it-says");
 }
